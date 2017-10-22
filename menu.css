@@ -21,7 +21,7 @@ html, body{
 h1{
     font-size: 6.854rem;
     /* ADD the Google serif font to this font stack */
-    font-family: Antic Slab,'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+    font-family: Antic Slab,'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 1rem 2rem;
 }
 h2{
@@ -50,77 +50,71 @@ header{
     color: #FFC66B;
 }
 .menu-h{
-    width:100%;
-    float:right;
+    width: 100%;
+    float: right;
     font-size: 0;
 }
     .menu-h li{
         /* style the list items to remove the bullets 
         and line up horizontally
         and take up 20% of the width of the ul */
-        display:inline-block;
-        text-align:left;
-        padding:0 -5px;
-        width:20%;
+        display: inline-block;
+        width: 20%;
+        padding: 2px;
+        font-weight: 700;
     }
-    .menu-h li a{
-        color:#CC9F56;
-        font-weight:300;
-        transition-duration:1s;
-        text-decoration:none;
+.menu-h li a{
+        color: #CC9F56;
+        font-weight: 300;
+        transition-duration: 1s;
+        text-decoration: none;
     }
         .menu-h a,
         .menu-h a:link,
-        .menu-h a:visited{
+        .menu-h a:visted{
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
-            padding: -5px;
             width: 100%;
+            padding: 2px;
+            color: #7F725C;
         }
         .menu-h a:hover,
-        .menu-h a:active
-        .menu-h a:focus{
-            padding: 5px;
-            background-color:#7F6336;
-            text-transform:uppercase;
-            
+        .menu-h a:active{
+            background-color: #7F6336;
+            transition: background-color 1.5s;
+            text-transform: uppercase;
         }
 .menu-v{
-    width:20%;
-    float:left;
+    width: 20%;
+    float: left;
 }
     .menu-v li{
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
-        display:inline-block;
-        text-align:left;
-        width:100%;
+        display: inline-block;
+        text-align: left;
+        width: 100%;
     }
 .menu-v li a{
-    color:#CC9F56;
+    color: #CC9F56;
 }
         .menu-v a,
         .menu-v a:link,
         .menu-v a:visited{
-            text-decoration:none;
             /* style the anchors to fill the entire width of the li */
+            text-decoration: none;
         }
         .menu-v a:hover,
-        .menu-v a:active,
-        .menu-v a:focus{
-            background-color:#FFC66B;
-            font-size:150%;
-            transition-delay:0.1s;
+        .menu-v a:active{
+            background-color: #FFC66B;
+            border-color: #CC9F56;
+            font-size: 150%;
+            transition-delay: 0.2s;
         }
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 main{
-    width:80%;
-    float:right;
+    width: 80%;
+    float: right;
 }
 footer{
     clear:both;

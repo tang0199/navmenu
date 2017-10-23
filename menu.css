@@ -81,11 +81,12 @@ header{
         .menu-h a:hover,
         .menu-h a:active{
             text-transform: uppercase;
-            box-shadow: 0 2px 0 0 #7F725C;
+            box-shadow: 0 4px 0 0 #7F725C;
         }
 .menu-v{
     width: 20%;
     float: left;
+    font-size: 0;
 }
     .menu-v li{
         /* style the list items to remove the bullets 
@@ -94,21 +95,24 @@ header{
         display: inline-block;
         text-align: left;
         width: 100%;
+        font-size: 2rem;
     }
 .menu-v li a{
-    color: #CC9F56;
+    color: #7F6336;
+    transition: background-color 1s;
+    text-decoration: none;
 }
         .menu-v a,
         .menu-v a:link,
         .menu-v a:visited{
-            /* style the anchors to fill the entire width of the li */
-            text-decoration: none;
+            /* style the anchors to fill the entire width of the li ;*/
+            width:100%; 
+            padding: 2px;
+
         }
         .menu-v a:hover,
         .menu-v a:active{
-            background-color: #FFC66B;
-            border-color: #CC9F56;
-            transition: background-color 1s;
+            background-color:#FFC66B;
             font-size: 120%;
         }
 main{

@@ -80,9 +80,8 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-            background-color: #7F6336;
-            transition: background-color 1.5s;
             text-transform: uppercase;
+            box-shadow: 0 2px 0 0 #7F725C;
         }
 .menu-v{
     width: 20%;
@@ -109,8 +108,8 @@ header{
         .menu-v a:active{
             background-color: #FFC66B;
             border-color: #CC9F56;
-            font-size: 150%;
-            transition-delay: 0.2s;
+            transition: background-color 1s;
+            font-size: 120%;
         }
 main{
     width: 80%;
